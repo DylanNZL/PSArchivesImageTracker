@@ -12,6 +12,21 @@
     "express": "~4.14.0",
     "hbs": "~4.0.1",
     "morgan": "~1.7.0",
+    "prequest": "^1.0.0",
+    "q": "^1.4.1",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "Checks images from Mono's PSArchives server against Daybreak's Census API for Planetside 2",
+  "main": "bin/www",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanNZL/PSArchivesImageTracker.git"
+  },
+  "author": "DylanNZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanNZL/PSArchivesImageTracker/issues"
+  },
+  "homepage": "https://github.com/DylanNZL/PSArchivesImageTracker#readme"
 }
