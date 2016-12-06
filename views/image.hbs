@@ -1,0 +1,20 @@
+<table style="text-align:center;">
+    <thead>
+        <tr>
+            <th>Item ID</th>
+            <th>Item</th>
+            <th>Census Image</th>
+            <th>PSArchives ID</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each weapon}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.name}}</td>
+            <td><img src="{{this.census}}"/></td>
+            <td><img src="{{this.psarchives}}"/></td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
